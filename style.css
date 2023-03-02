@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+}
+.conent{
+    background-image: url(/black.jpg);
+}
+nav{
+    flex: 1%;
+}
+.icon{
+    display: flex;
+}
+.ul,li{
+    display: inline;
+    padding-left: 2opx;
+    margin-left: 20px;
+    font-size: 10px;
+    align-items: left;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.image{
+    display: flex;
+    width: 100px;
+    margin-left: 400px;
+    height: 100px;
+    float: right;
+    margin-bottom: 10px;
+    padding-left: 20px;
+}
+.box2{
+    display: flex;
+
+}
+.dives{
+    display: flex;
+    width: 200px;
+    height: 200px;
+}
+.dive1{
+    display: flex;
+    width: 600px;
+    height: 500px;
+}
+.dive2{
+    display: flex;
+    width: 200px;
+    height: 200px;
+}
+.dive3{
+    display: flex;
+    width: 200px;
+    height: 200px;
+    font-size: large
+}
+.box4{
+    background-color: black;
+    color: white;
+}
+.footer{
+   display: flex;
+   justify-content: space-between; 
+   background-color: black;
+   color: white;
+   
+}
