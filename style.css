@@ -2,6 +2,10 @@
     margin: 0;
     padding: 0;
 }
+body{
+    font-family: 'Inter', sans-serif;
+font-family: 'Quicksand', sans-serif;
+}
 .container{
     margin: 20px;
     padding: 10px;
@@ -20,11 +24,20 @@ nav{
     display: inline;
     padding-left: 2opx;
     margin-left: 20px;
-    font-size: 10px;
+    font-size: x-large;
     align-items: left;
     font-weight: bold;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+button{
+    position: relative;
+    font-weight: bold;
+    border-radius: 25px;
+    padding: 3%;
+    color: rgb(226, 214, 43);
+    background-color: green;
+}
+
 .image{
     display: flex;
     width: 100px;
@@ -69,4 +82,9 @@ nav{
    background-color: black;
    color: white;
    
+}
+.image{
+    padding-right: 20px;
+    margin-left: 30px;
+    display: flex;
 }
