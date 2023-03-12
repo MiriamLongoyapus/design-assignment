@@ -5,47 +5,42 @@
 body{
     font-family: 'Inter', sans-serif;
 font-family: 'Quicksand', sans-serif;
+background-color: lightgrey;
 }
-.container{
-    margin: 20px;
-    padding: 10px;
+.nav{
     display: flex;
-}
-.conent{
-    background-image: url(/black.jpg);
-}
-nav{
-    flex: 1%;
-}
-.icon{
-    display: flex;
-}
-.ul,li{
-    display: inline;
-    padding-left: 2opx;
-    margin-left: 20px;
-    font-size: x-large;
-    align-items: left;
+    padding-left: 5%;
+    gap: 13%;
+    margin-top: 2%;
     font-weight: bold;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    list-style: none;
 }
+.head{
+    
+    
+    margin-left: 10%;
+    margin-top: 10%;
+}
+.li{
+    margin-left: 50px;
+    padding: 50px;
+    list-style: none;
+
+}
+
 button{
-    position: relative;
     font-weight: bold;
-    border-radius: 25px;
-    padding: 3%;
+    border-radius: 25px 20px;
+    padding: 1%;
     color: rgb(226, 214, 43);
     background-color: green;
 }
 
-.image{
-    display: flex;
-    width: 100px;
-    margin-left: 400px;
-    height: 100px;
-    float: right;
-    margin-bottom: 10px;
-    padding-left: 20px;
+
+.chair2{
+    margin-left: 50%;
+    margin-top: -30%;
+    
 }
 .box2{
     display: flex;
@@ -58,33 +53,146 @@ button{
 }
 .dive1{
     display: flex;
-    width: 600px;
-    height: 500px;
+    width: 800px;
+    height: 800px;
+    margin-top: 10%;
+    margin-bottom: 20%;
 }
 .dive2{
     display: flex;
-    width: 200px;
-    height: 200px;
+}
+.dive2 img{
+
+    width: 30%;
+    height: 40vh;
+}
+.dive2{
+    /* width: 25%;
+    height: 41vh; */
+    margin-top: 10%;
 }
 .dive3{
-    display: flex;
-    width: 200px;
-    height: 200px;
-    font-size: large
-}
-.box4{
-    background-color: black;
-    color: white;
-}
+    margin-left: 5%;
+     font-size: large;
+     margin-top: -20%;
+ }
 .footer{
    display: flex;
    justify-content: space-between; 
    background-color: black;
    color: white;
+   margin-top: 7%;
+   padding: 50px;
+   
    
 }
 .image{
     padding-right: 20px;
     margin-left: 30px;
     display: flex;
+    float: right;
+    width: 100px;
+    height: 50px;
+    margin-bottom: 30px;
+}
+#new{
+    
+}
+#m1{
+    margin-left: 15%;
+}
+#PIC{
+    margin-left: 25%;
+}
+#B{
+    margin-left: 39%;
+}
+#D{
+    margin-left: 37%;
+}
+.chair{
+    margin-left: 3%;
+    margin-top: -3%;
+}
+.sofa{
+    margin-left: 21%;
+    margin-top: -4%;
+}
+.bed{
+    margin-left: 49%;
+    margin-top: -5%;
+
+}
+.table{
+    margin-left: 68%;
+    margin-top: -4%;
+
+}
+#project{
+    margin-left: 15%;
+    margin-bottom: 30%;
+}
+#collection{
+    margin-left: 15%;
+    margin-bottom: 30%;
+
+}
+.p1{
+    margin-left: 9%;
+    margin-top: -40%;
+}
+.c1{
+    margin-left: 55%;
+    margin-top: -3%;
+
+}
+#percent{
+    margin-top: 10%;
+    background-color: black;
+    color: white;
+    /* margin-bottom: 80%; */
+    padding: 70px;
+
+}
+#aaa{
+    margin-left: 1%;
+    margin-bottom: 30%;
+    height: 60%;
+    width: 50%;
+
+}
+#rrr{
+    margin-left: 1%;
+    margin-bottom: 30%;
+
+
+}
+#zzz{
+    margin-left: 1%;
+     height: 60%;
+
+}
+.production{
+    margin-right: -100%;
+    margin-top: 40%;
+
+}
+.partners{
+    margin-top: -90%;
+    margin-left: 39%;
+
+}
+.clients{
+    margin-top: 15%;
+
+}
+.product{
+margin-top: 15%;
+}
+
+    
+
+#catalog{
+    margin-left: 45%;
+    margin-top: -10%;
 }
